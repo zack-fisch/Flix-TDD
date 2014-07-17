@@ -1,0 +1,7 @@
+<h1><%= pluralize(@movies.length, 'Movie') %> /h1>
+
+<ol>
+	<% @movies.each do |movie| %>
+	<li><%= movie %></li>
+	<% end %>
+</ol>
